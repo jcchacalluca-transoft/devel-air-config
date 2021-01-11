@@ -33,7 +33,7 @@ spring:
           environment:
             spring:
               rabbitmq:
-                host: rabbitmq.dev.air.c.transoft.bo #192.168.107.22
+                host: 192.168.107.22 #rabbitmq.dev.air.c.transoft.bo #192.168.107.22
                 port: 5672
                 username: admin
                 password: admin
@@ -157,7 +157,7 @@ kjar-service:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka.dev.air.c.transoft.bo:8761/eureka/ #192.168.107.20
+      defaultZone: http://192.168.107.20:8761/eureka/ # eureka.dev.air.c.transoft.bo #192.168.107.20
   instance:
     metadataMap:
       instanceId: ${spring.application.name}:${server.port}
@@ -167,4 +167,4 @@ security:
     enabled: false
   oauth2:
     resource:
-      userInfoUri: http://oauth.dev.air.c.transoft.bo:9999/uaa/api/user #192.168.107.28
+      userInfoUri: http://192.168.107.28:9999/uaa/api/user # oauth.dev.air.c.transoft.bo  #192.168.107.28
