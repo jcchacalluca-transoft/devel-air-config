@@ -26,7 +26,7 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/      
-      username: actuator
-      password: password
+      # username: actuator
+      # password: password
   server:
     waitTimeInMsWhenSyncEmpty: 0
