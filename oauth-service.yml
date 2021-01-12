@@ -47,7 +47,7 @@ logging:
 
   # Logger-specific levels.
   loggers:
-
+    root: DEBUG
     # Redirects SQL logs to a separate file
     org.hibernate.SQL: DEBUG
     org.springframework.web: DEBUG
