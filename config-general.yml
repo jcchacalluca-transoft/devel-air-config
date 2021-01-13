@@ -80,11 +80,10 @@ logging:
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
   level:  
   # config application
-    root: DEBUG
-    com.transoft.completeair.configgeneral: DEBUG
+    com.transoft.completeair: DEBUG
+    # com.transoft.completeair.configgeneral: DEBUG
   # Logger-specific levels.
   loggers:
-    root: DEBUG
     # Redirects SQL logs to a separate file
     org.hibernate.SQL: DEBUG
     org.springframework.web: DEBUG
