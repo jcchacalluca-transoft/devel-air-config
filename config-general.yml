@@ -69,7 +69,7 @@ spring:
 mail:
   protocol: smtp
   smtp:
-    host: 177.222.58.34
+    host: mailsrv.transoft.bo
     port: 25
   support:
     username: ecojet@mail.transoft.bo
