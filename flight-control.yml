@@ -70,7 +70,8 @@ logging:
 
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
   level: 
-    com.transoft.completeair.flightcontrol: DEBUG
+    # com.transoft.completeair.flightcontrol: DEBUG
+    com.transoft.completeair: DEBUG
 
   # Logger-specific levels.
   loggers:
