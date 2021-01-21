@@ -93,7 +93,7 @@ logging:
   loggers:
 
     # Redirects SQL logs to a separate file
-    org.hibernate: ERROR
+    # org.hibernate: DEBUG
     org.springframework.web: DEBUG
 # config Oauth
 serviceOauth:
