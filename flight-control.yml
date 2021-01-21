@@ -72,7 +72,7 @@ logging:
   level: 
     # com.transoft.completeair.flightcontrol: DEBUG
     com.transoft.completeair: DEBUG
-
+    org.hibernate.SQL: INFO
   # Logger-specific levels.
   loggers:
 
