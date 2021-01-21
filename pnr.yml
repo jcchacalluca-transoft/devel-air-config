@@ -88,6 +88,7 @@ logging:
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
   level:
     com.transoft.completeair.pnr: DEBUG
+    org.hibernate: INFO
 
   # Logger-specific levels.
   loggers:
