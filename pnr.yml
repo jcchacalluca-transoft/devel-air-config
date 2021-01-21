@@ -77,10 +77,10 @@ spring:
 #
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
-    show-sql: false
+    show-sql: true
     hibernate:
       #ddl-auto: create
-      show_sql: false
+      show_sql: true
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 # Logging settings.
 logging:
@@ -88,13 +88,12 @@ logging:
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
   level:
     com.transoft.completeair.pnr: DEBUG
-    org.hibernate: INFO
 
   # Logger-specific levels.
   loggers:
 
     # Redirects SQL logs to a separate file
-    org.hibernate.SQL: DEBUG
+    org.hibernate: INFO
     org.springframework.web: DEBUG
 # config Oauth
 serviceOauth:
