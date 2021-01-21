@@ -80,7 +80,7 @@ spring:
     show-sql: true
     hibernate:
       #ddl-auto: create
-      show_sql: true
+      show_sql: false
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 # Logging settings.
 logging:
