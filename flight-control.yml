@@ -67,7 +67,6 @@ spring:
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 # Logging settings.
 logging:
-
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
   level: 
     # com.transoft.completeair.flightcontrol: DEBUG
@@ -75,10 +74,9 @@ logging:
     org.hibernate: INFO
   # Logger-specific levels.
   loggers:
-
     # Redirects SQL logs to a separate file
-    org.hibernate.SQL: DEBUG
-    org.springframework.web: DEBUG
+    #!org.hibernate.SQL: DEBUG
+    #!org.springframework.web: DEBUG
 
 # Note: import disable mode product and active mode Dev
 server:
