@@ -83,7 +83,7 @@ logging:
     com.transoft.completeair: DEBUG
     # com.transoft.completeair.configgeneral: DEBUG
   # Logger-specific levels.
-  loggers:
+  #! loggers:
     # Redirects SQL logs to a separate file
     #! org.hibernate.SQL: DEBUG
     #! org.springframework.web: DEBUG
