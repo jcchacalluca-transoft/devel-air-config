@@ -74,13 +74,6 @@ spring:
       show_sql: true
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 
-  #! define manager security credentials
-  security:
-    user:
-      name: manager
-      password: transoft2
-      roles: manager
-
 # Logging settings.
 logging:
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.

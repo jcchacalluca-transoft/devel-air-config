@@ -66,13 +66,6 @@ spring:
   #velocity:
     #resourceLoaderPath: classpath:/templates/velocity
 
-  #! define manager security credentials
-  security:
-    user:
-      name: manager
-      password: transoft2
-      roles: manager
-
 # Mailing
 mail:
   protocol: smtp
