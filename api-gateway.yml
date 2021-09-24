@@ -33,7 +33,7 @@ spring:
           environment:
             spring:
               rabbitmq:
-                host: rabbitmq.dev.air.c.transoft.bo #192.168.107.22
+                host: 192.168.107.127
                 port: 5672
                 username: admin
                 password: admin
@@ -43,7 +43,7 @@ serviceOauth:
   refresh: http://oauth-service/uaa/oauth/token?grant_type=refresh_token&refresh_token=
   logout: http://oauth-service/uaa/api/logout-up
   account: http://oauth-service/uaa/api/account
-  errorOauth: http://erroauth.dev.air.c.transoft.bo:${server.port} #update ip public 172.16.0.114
+  errorOauth: http://erroauth.dev.air.c.transoft.bo:${server.port} #update ip public 172.16.0.114 api-gateway?
 #spring.mvc.dispatch-options-request=true
 # Define the routes which determine what URL are serviced by what applications.
 # The application/services are defined in the bootstrap.yml file of individual applications
@@ -157,7 +157,7 @@ kjar-service:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.107.20:8761/eureka/
+      defaultZone: http://192.168.107.63:8761/eureka/
   instance:
     metadataMap:
       instanceId: ${spring.application.name}:${server.port}
@@ -167,4 +167,4 @@ security:
     enabled: false
   oauth2:
     resource:
-      userInfoUri: http://192.168.107.28:9999/uaa/api/user
+      userInfoUri: http://192.168.107.59:9999/uaa/api/user
