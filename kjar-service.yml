@@ -38,7 +38,7 @@ logging:
 # config deploy jkar kie-server
 kie:
   #172.16.0.104 ip public
-  server: http://brules.c.transoft.bo:8090/kie-server/services/rest/server
+  server: http://172.16.20.112:8090/kie-server/services/rest/server
   user: kieserver
   pass: kieserver,.!
   projects:
@@ -67,4 +67,4 @@ eureka:
 security:
   oauth2:
     resource:
-      userInfoUri: http://192.168.107.59:9999/uaa/api/user  #192.168.107.28
+      userInfoUri: http://192.168.107.63:9999/uaa/api/user  #192.168.107.28

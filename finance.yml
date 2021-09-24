@@ -90,7 +90,7 @@ serviceOauth:
   login: http://oauth-service/uaa/oauth/token?client_id=
   refresh: http://oauth-service/uaa/oauth/token?grant_type=refresh_token&refresh_token=
   logout: http://oauth-service/uaa/api/logout-up
-  account: http://192.168.107.59:9999/uaa/api/account #192.168.107.28
+  account: http://192.168.107.63:9999/uaa/api/account #192.168.107.28
 # Note: import disable mode product and active mode Dev
 server:
   port: 8089
@@ -106,4 +106,4 @@ eureka:
 security:
   oauth2:
     resource:
-      userInfoUri: http://192.168.107.59:9999/uaa/api/user  #192.168.107.28
+      userInfoUri: http://192.168.107.63:9999/uaa/api/user  #192.168.107.28

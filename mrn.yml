@@ -61,17 +61,17 @@ kieServer:
   user: kieserver
   password: kieserver,.!
   #url: http://kie.dev.air.c.transoft.bo:8080/kie-server/services/rest/server #192.168.107.41
-  url: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
+  url: http://172.16.20.112:8080/kie-server/services/rest/server
   containerId: fare-engine-devel
   fare:
     user: kieserver
     password: kieserver,.!
-    url: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
+    url: http://172.16.20.112:8080/kie-server/services/rest/server
     container: fare-engine-devel
   waitingList:
     user: kieserver
     password: kieserver,.!
-    url: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
+    url: http://172.16.20.112:8080/kie-server/services/rest/server
     container: fare-engine-devel
 #Config Eureka
 eureka:
@@ -85,4 +85,4 @@ eureka:
 security:
   oauth2:
     resource:
-      userInfoUri: http://192.168.107.59:9999/uaa/api/user #192.168.107.28
+      userInfoUri: http://192.168.107.63:9999/uaa/api/user #192.168.107.28
