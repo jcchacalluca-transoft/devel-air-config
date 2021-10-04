@@ -65,7 +65,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.107.63:8761/eureka/   #192.168.107.20
+      defaultZone: http://192.168.107.63:8761/eureka/
   instance:
     metadataMap:
       instanceId: ${spring.application.name}:${server.port}
@@ -73,4 +73,4 @@ eureka:
 security:
   oauth2:
     resource:
-      userInfoUri: http://192.168.107.63:9999/uaa/api/user   #192.168.107.28
+      userInfoUri: http://192.168.107.63:9999/uaa/api/user

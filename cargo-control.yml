@@ -38,7 +38,7 @@ spring:
 # Datasource and JPA configuration to be used for using the same tokenstore as the authorization server for
 # the defined resource server. Note that there can't be 2 different root nodes, so datasource falls under the "spring" node.
   datasource:
-    url: jdbc:mysql://192.168.107.105:3306/cargo_control  #192.168.107.35
+    url: jdbc:mysql://192.168.107.105:3306/cargo_control
     username: root
     password: mysql
     driver-class: com.mysql.jdbc.Driver
@@ -57,14 +57,12 @@ spring:
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 # Logging settings.
 logging:
-
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
   level:
     com.transoft.completeair.cargocontrol: DEBUG
 
   # Logger-specific levels.
   loggers:
-
     # Redirects SQL logs to a separate file
     org.hibernate.SQL: DEBUG
     org.springframework.web: DEBUG
@@ -76,7 +74,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.107.63:8761/eureka/   #192.168.107.20
+      defaultZone: http://192.168.107.63:8761/eureka/
   instance:
     metadataMap:
       instanceId: ${spring.application.name}:${server.port}
@@ -84,4 +82,4 @@ eureka:
 security:
   oauth2:
     resource:
-      userInfoUri: http://192.168.107.63:9999/uaa/api/user  #192.168.107.28
+      userInfoUri: http://192.168.107.63:9999/uaa/api/user
