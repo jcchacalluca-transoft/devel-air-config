@@ -151,8 +151,8 @@ sales:
     ConnectTimeout: 60000
 kjar-service:
   ribbon:
-    ReadTimeout: 120000
-    ConnectTimeout: 120000    
+    ReadTimeout: 10000
+    ConnectTimeout: 10000
 # Define the Eureka server that handles service registration
 eureka:
   client:
