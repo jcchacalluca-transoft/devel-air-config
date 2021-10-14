@@ -74,6 +74,15 @@ spring:
       show_sql: true
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 
+mail:
+  protocol: smtp
+  smtp:
+    host: mailsrv.transoft.bo
+    port: 25
+  support:
+    username: ecojet@mail.transoft.bo
+    password: 3coJJ3T
+
 # Logging settings.
 logging:
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
