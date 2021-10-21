@@ -85,6 +85,7 @@ mail:
     source: ecojet@mail.transoft.bo
   notify:
     - jcchacalluca@transoft.bo
+    - mail@mail.com
 
 
 # Logging settings.
