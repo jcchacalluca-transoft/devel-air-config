@@ -125,3 +125,9 @@ security:
   oauth2:
     resource:
       userInfoUri: http://192.168.107.63:9999/uaa/api/user
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include=*:
