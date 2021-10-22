@@ -90,8 +90,6 @@ mail:
     password: 3coJJ3T
     source: ecojet@mail.transoft.bo
   notify: jcchacalluca@transoft.bo, mail@mail.com, mail@mail.bo
-  test: bob
-
 
 # Logging settings.
 logging:
