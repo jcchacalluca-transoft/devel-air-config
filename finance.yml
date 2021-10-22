@@ -89,7 +89,10 @@ mail:
     username: ecojet@mail.transoft.bo
     password: 3coJJ3T
     source: ecojet@mail.transoft.bo
-  notify: jcchacalluca@transoft.bo,mail@mail.com,mail@mail.bo
+  notify:
+    - jcchacalluca@transoft.bo
+    - mail@mail.com
+    - mail@mail.bo
 
 # Logging settings.
 logging:
