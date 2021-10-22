@@ -74,6 +74,11 @@ spring:
       show_sql: true
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 
+  security:
+    user: admin
+    password: transoft!
+    roles: manager
+
 mail:
   protocol: smtp
   smtp:
