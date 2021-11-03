@@ -70,7 +70,7 @@ kieServer:
     container: fare-engine-devel
   waitingList:
     user: kieserver
-    password: kieserver,.!
+    password: kieserver1!
     url: http://172.16.10.223:8080/kie-server/services/rest/server
     container: waiting-list-devel
 #Config Eureka
