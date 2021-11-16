@@ -39,7 +39,6 @@ spring:
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 # Logging settings.
 logging:
-
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
   level:
     com.transoft.completeair.report: DEBUG
