@@ -105,6 +105,9 @@ logging:
     # Redirects SQL logs to a separate file
     org.hibernate.SQL: DEBUG
     org.springframework.web: DEBUG
+  pattern:
+    file: %d{yyyy-MM-dd HH:mm:ss} [%X{X-B3-TraceId:-},%X{X-B3-SpanId:-}] %-5level %logger{36} - %msg%n
+
 # config Oauth
 serviceOauth:
   login: http://oauth-service/uaa/oauth/token?client_id=
